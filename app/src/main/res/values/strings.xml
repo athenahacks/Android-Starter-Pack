@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AndroidStarterPack</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to SettingsActivity -->
+    <string name="settings_activity_title">Settings</string>
+    <string name="checkbox_pref_title">Checkbox preference</string>
+    <string name="checkbox_pref_summary">Check/Uncheck me</string>
+    <string name="list_pref_default">item 1</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="nav_header_title">Android Starter Pack</string>
+    <string name="treehacks_email">treehacks@treehacks.com</string>
+    <string name="action_item">Menu item</string>
+</resources>

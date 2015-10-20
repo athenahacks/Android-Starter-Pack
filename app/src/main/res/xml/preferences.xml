@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="pref_checkbox"
+        android:title="@string/checkbox_pref_title"
+        android:summary="@string/checkbox_pref_summary"
+        android:defaultValue="true" />
+    <PreferenceCategory
+        android:title="Preference Category"
+        android:key="pref_key_category">
+        <ListPreference
+            android:dependency="pref_checkbox"
+            android:key="pref_list"
+            android:title="List Preference"
+            android:dialogTitle="Dialog Title"
+            android:entries="@array/list_pref_entries"
+            android:entryValues="@array/list_pref_entry_values"
+            android:defaultValue="@string/list_pref_default" />
+    </PreferenceCategory>
+    <!-- opens a subscreen of settings -->
+    <PreferenceScreen
+        android:key="pref_nested_screen"
+        android:title="Nested Preference Screen"
+        android:persistent="false">
+        <RingtonePreference
+            android:key="pref_ringtone"
+            android:title="Ringtone"
+            android:ringtoneType="notification" />
+    </PreferenceScreen>
+</PreferenceScreen>
